@@ -55,6 +55,7 @@ public class ApiHttpClient {
 					}
 				}
 			}
+			
 			urlConnection.addRequestProperty("Content-length",
 					reqEntity.getContentLength() + "");
 			// urlConnection.setFixedLengthStreamingMode(reqEntity.getContentLength());
